@@ -1,0 +1,31 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="*jF@R`lYZXsNT/Y[%fw-" x="0" y="0"><statement name="HANDLER"><block type="basic_show_icon" id="St9IE`igPmMUrUezHkw#"><field name="i">IconNames.Asleep</field></block></statement></block><block type="device_button_event" id="w7+x}lZ=t*$sp}xB)U5H" x="371" y="83"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="basic_show_icon" id="RI-+80Z0:?:=V!jZtfyI"><field name="i">IconNames.Scissors</field><next><block type="basic_show_icon" id="SS9T3pq|Z~!RKxk,FF]4"><field name="i">IconNames.Square</field><next><block type="basic_show_icon" id="},~b$6l4Lvi]3.5a^6@%"><field name="i">IconNames.Target</field><next><block type="basic_show_icon" id="EQ|z}JxW2^[(GZ~ccGZ@"><field name="i">IconNames.Sword</field></block></next></block></next></block></next></block></statement></block><block type="device_button_event" id="-v?!$aaVw%XA:[QVZv20" x="687" y="70"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_print_message" id="7kC{zeXiT/1mbLi?(eL|"><value name="text"><shadow type="text" id="ZtMHcY9/A?0fR{c/S3/B"><field name="TEXT">Comida</field></shadow></value><next><block type="device_show_leds" id="C=61*Y`YS@/iB+3e6m|H"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field><next><block type="device_show_leds" id="HN7J{w$G$zY1v^HDyZA4"><field name="LEDS">`
+        . . . # # 
+        . . # # # 
+        . # # # # 
+        # # # # # 
+        # # # # #
+        `</field><next><block type="device_show_leds" id="Pk(u1fdR:^w6c(8[^xt!"><field name="LEDS">`
+        . . . . . 
+        . . . . # 
+        . . . # # 
+        . . # # # 
+        . # # # #
+        `</field><next><block type="device_show_leds" id=")UAkRuk5dkH|fgdf1hcG"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . # 
+        . . . # # 
+        . . # # #
+        `</field><next><block type="device_show_leds" id="H;=15a^q))w|.d)k.,5w"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="input_logo_event" id="l(oW|pBl0HznP/;%y$=M" x="12" y="217"><field name="action">TouchButtonEvent.Pressed</field><statement name="HANDLER"><block type="basic_show_icon" id="x^SA_PH?IA(mfm~Qd80T"><field name="i">IconNames.Happy</field><next><block type="music_playable_play" id="=IAfyNh6*Mo)dOS$be5w"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="soundExpression_builtinPlayableSoundEffect" id="E19]Q0bL,Y]mk;OW83kI"><field name="soundExpression">soundExpression.giggle</field></shadow></value></block></next></block></statement></block><block type="device_button_event" id="qZk9F%ucFAXPul:k(W==" x="11" y="446"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="basic_show_icon" id="@pDVzEq%mTVHbBzT;sN4"><field name="i">IconNames.Sad</field><next><block type="music_playable_play" id="(+]x:DNBOO-kAD7DzH0J"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="soundExpression_builtinPlayableSoundEffect" id="bp6GG6xX*(]CX6BtWt(B"><field name="soundExpression">soundExpression.sad</field></shadow></value></block></next></block></statement></block></xml>
